@@ -1,15 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './index.css';
+
+function Index() {
   return (
     <div className="App">
       <button className='btn'>Click me</button>
-      <h1>main</h1>
+      <h1>Navbar</h1>
+      <p>main</p>
       <p>footer</p>
-  
     </div>
+
+    
   );
 }
 
-export default App;
+export default Index;
